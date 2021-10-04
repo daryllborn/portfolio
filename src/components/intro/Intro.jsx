@@ -11,7 +11,7 @@ export default function Intro() {
             textRef.current, {
                 showCursor: true,
                 backDelay: 1500,
-                strings: ["Developer", "Designer", "Engineer"],
+                strings: ["React", "Node", "MERN", "Fullstack"],
             }    
         );
     },[]);
@@ -28,7 +28,8 @@ export default function Intro() {
                 <div className="wrapper">
                     <h2>Hello World, I'm</h2>
                     <h1>Daryll Born</h1>
-                    <h3>React <span ref={textRef} ></span></h3>
+                    <h3><span ref={textRef} ></span>Developer</h3>
+                    <img src="assets/MERN-logo2.png" alt="" /> 
                 </div>
                 <a href="#portfolio">
                     <img src="assets/down.png" alt="" /> 

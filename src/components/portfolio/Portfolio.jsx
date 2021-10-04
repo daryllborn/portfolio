@@ -3,11 +3,10 @@ import { useState, useEffect } from "react";
 import PortfolioList from "../portfolioList/PortfolioList";
 import {
   featuredPortfolio,
-  webPortfolio,
-  mobilePortfolio,
-  designPortfolio,
-  contentPortfolio,
+  frontEndPortfolio,
+  backEndPortfolio,
 } from "../../data";
+//import { Person, Mail, AccessibilityNew } from "@material-ui/icons"
 
 export default function Portfolio() {
   const [selected, setSelected] = useState("featured");
@@ -19,21 +18,14 @@ export default function Portfolio() {
       title: "Featured",
     },
     {
-      id: "web",
-      title: "Web App",
+      id: "frontend",
+      title: "Frontend",
     },
     {
-      id: "mobile",
-      title: "Mobile App",
+      id: "backend",
+      title: "Backend",
     },
-    {
-      id: "design",
-      title: "Design",
-    },
-    {
-      id: "content",
-      title: "Content",
-    },
+
   ];
 
   useEffect(() => {
@@ -41,17 +33,11 @@ export default function Portfolio() {
       case "featured":
         setData(featuredPortfolio);
         break;
-      case "web":
-        setData(webPortfolio);
+      case "frontend":
+        setData(frontEndPortfolio);
         break;
-      case "mobile":
-        setData(mobilePortfolio);
-        break;
-      case "design":
-        setData(designPortfolio);
-        break;
-      case "content":
-        setData(contentPortfolio);
+      case "backend":
+        setData(backEndPortfolio);
         break;
       default:
         setData(featuredPortfolio);
@@ -76,6 +62,12 @@ export default function Portfolio() {
           <div className="item">
             <img src={item.img} alt="" />
             <h3>{item.title}</h3>
+            <ul>
+              <li>Node.js</li>
+              <li>Express.js</li>
+              <li>MongoDB</li>
+              <li>React</li>
+            </ul>
           </div>
         ))}
       </div>
