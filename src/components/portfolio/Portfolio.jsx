@@ -6,7 +6,8 @@ import {
   frontEndPortfolio,
   backEndPortfolio,
 } from "../../data";
-//import { Person, Mail, AccessibilityNew } from "@material-ui/icons"
+
+
 
 export default function Portfolio() {
   const [selected, setSelected] = useState("featured");
@@ -62,12 +63,21 @@ export default function Portfolio() {
           <div className="item">
             <img src={item.img} alt="" />
             <h3>{item.title}</h3>
-            <ul>
-              <li>Node.js</li>
-              <li>Express.js</li>
-              <li>MongoDB</li>
-              <li>React</li>
-            </ul>
+            <div className="infoContainer">
+              <div className="info">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </div>
+
+              <ul>
+                <li>Node.js</li>
+                <li>Express.js</li>
+                <li>MongoDB</li>
+                <li>React</li>
+              </ul>
+            </div>
+          <div className="links">
+            <img src="assets/github.png" alt="" />
+          </div>
           </div>
         ))}
       </div>
