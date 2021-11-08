@@ -1,16 +1,19 @@
+@import "../../global.scss";
+
+
 .intro{
     background-color: white;
     display: flex;
     
     .left{
-        flex: 0.5;
+        flex: 0.6;
         overflow: hidden;
 
         .imgContainer{
-            width: 900px;
-            height: 900px;
-            background-color: crimson;
-            border-radius: 50%;
+            width: 1000;
+            height: 1000px;
+            //background-color: $mainColor;
+            border-radius: 80%;
             display: flex;
             align-items: center;
             justify-content: center;
@@ -29,7 +32,7 @@
 
     .right{
 
-        flex: 0.5;
+        flex: 0.4;
         position: relative;
 
         .wrapper{            
@@ -57,7 +60,7 @@
 
                 span{
                     font-size:inherit;
-                    color:crimson;
+                    color: $mainColor;
                 }
                 
                 .ityped-cursor{

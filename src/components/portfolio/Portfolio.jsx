@@ -6,8 +6,8 @@ import {
   frontEndPortfolio,
   backEndPortfolio,
 } from "../../data";
-
-
+import GitHubIcon from "@mui/icons-material/GitHub";
+import PreviewIcon from "@mui/icons-material/Preview";
 
 export default function Portfolio() {
   const [selected, setSelected] = useState("featured");
@@ -26,7 +26,6 @@ export default function Portfolio() {
       id: "backend",
       title: "Backend",
     },
-
   ];
 
   useEffect(() => {
@@ -65,19 +64,43 @@ export default function Portfolio() {
             <h3>{item.title}</h3>
             <div className="infoContainer">
               <div className="info">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.
               </div>
 
               <ul>
-                <li>Node.js</li>
-                <li>Express.js</li>
-                <li>MongoDB</li>
-                <li>React</li>
+                Tech used:
+                <li>-------------------------</li>
+                <li>> Node.js</li>
+                <li>> MongoDB</li>
+                <li>> React</li>
+                <li>> Sass</li>
+                <li>> Socket.io</li>
+                <li>> WebRTC</li>
               </ul>
             </div>
-          <div className="links">
-            <img src="assets/github.png" alt="" />
-          </div>
+            <div className="links">
+              <div className="github">
+                <GitHubIcon />
+                <a
+                  href="https://github.com/daryllborn?tab=repositories"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >code
+                </a>
+              </div>
+              <div className="demo">
+                <PreviewIcon />
+                <a
+                  href="https://github.com/daryllborn?tab=repositories"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >demo
+                </a>
+              </div>
+            </div>
           </div>
         ))}
       </div>
