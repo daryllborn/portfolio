@@ -9,11 +9,11 @@ export default function Topbar( { menuOpen, setMenuOpen } ) {
                     <a href="#intro" className="logo">Born.<AccessibilityNew className="icon" /></a>
                     <div className="itemContainer">
                         <Person className="icon" />
-                        <span>+3188123456 </span>
+                        <span>+31651724674</span>
                     </div>
                     <div className="itemContainer">
                         <Mail className="icon" />
-                        <span>daryll@dborn.nl</span>
+                        <span>born.dd@gmail.com</span>
                     </div>
                 </div>
                 <div className="right">
