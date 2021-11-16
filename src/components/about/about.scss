@@ -9,8 +9,10 @@
       overflow: hidden;
 
       .imgContainer{
-          width: 1000;
-          height: 600px;
+          margin-top: 100px;
+          width: 80%;
+          height: 80%;
+          object-fit: cover;
           //background-color: $mainColor;
           //border-radius: 80%;
           display: flex;
@@ -38,18 +40,9 @@
           flex-direction: column;
           justify-content: center;
 
-          img{
-              margin-top: 40px;
-              width: 500px
-          }
-
           h1{
-              font-size: 100px;
-              margin: 10px 0;
+              font-size: 100px;              
               color: $mainColor;
-          }
-          h2{
-              font-size: 50px;
           }
           p{
             width: 600px;

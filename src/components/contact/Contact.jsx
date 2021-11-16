@@ -1,25 +1,19 @@
 import "./contact.css";
-//import Phone from "../public/assets/twitter.png";
-//import Email from "../public/assets/twitter.png";
-//import Address from "../public/assets/twitter.png";
-import { useContext, useRef, useState } from "react";
+import { useRef, useState } from "react";
 import emailjs from "emailjs-com";
-import { ThemeContext } from "../../context";
 
 const Contact = () => {
   const formRef = useRef();
   const [done, setDone] = useState(false)
-  const theme = useContext(ThemeContext);
-  const darkMode = "darkMode";
 
   const handleSubmit = (e) => {
     e.preventDefault();
     emailjs
       .sendForm(
-        "service_rrvnzco",
-        "template_3v5nih4",
+        "service_fdmmnpv",
+        "template_upj18rd",
         formRef.current,
-        "user_DrriDPTGKO2Zj4RDXCA6W"
+        "user_DHWquWKmFSIxQiHUNwh4T"
       )
       .then(
         (result) => {
@@ -33,9 +27,42 @@ const Contact = () => {
   };
 
   return (
-    
-
-    <iframe src="https://bridgevideochat.herokuapp.com/" className="iframe"></iframe>
+    <div className="c">      
+      <div className="c-wrapper">
+        <div className="c-left">
+          <h1 className="c-title">Contact</h1>
+          <div className="c-info">
+            <div className="c-info-item">
+              <img src="/assets/phone.png" alt="" className="c-icon" />
+              +31651724674
+            </div>
+            <div className="c-info-item">
+              <img className="c-icon" src="/assets/email.png" alt="" />
+              born.dd@gmail.com
+            </div>
+            <div className="c-info-item">
+              <img className="c-icon" src="/assets/address.png" alt="" />
+              Aphrodite 7, 3225TA, Hellevoetsluis
+            </div>
+          </div>
+        </div>
+        <div className="c-middle">
+          <img className="c-img" src="/assets/contact.png" alt="" />
+        </div>
+        <div className="c-right">
+          <p className="c-desc">
+          </p>
+          <form ref={formRef} onSubmit={handleSubmit}>
+            <input  type="text" placeholder="Name" name="user_name" />
+            <input  type="text" placeholder="Subject" name="user_subject" />
+            <input type="text" placeholder="Email" name="user_email" />
+            <textarea rows="5" placeholder="Message" name="message" />
+            <button>Submit</button>
+            {done && "Message sent successfully"}
+          </form>
+        </div>
+      </div>
+    </div>
   );
 };
 
