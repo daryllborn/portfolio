@@ -3,42 +3,27 @@ import "./about.scss";
 
 const About = () => {
   return (
-    <div className="a">
-      <div className="a-left">
-        <div className="a-card bg"></div>
-        <div className="a-card">
-          <img
-            src="/assets/mern_appstudio.png"
-            alt=""
-            className="a-img"
-          />
+  <div className="about">
+    <div className="left">
+        <div className="imgContainer">
+            <img src="assets/fullstack.png" alt="" />
         </div>
-      </div>
-      <div className="a-right">
-        <h1 className="a-title">About Me</h1>
-        <p className="a-sub">
-          It is a long established fact that a reader will be distracted by the
-          readable content.
-        </p>
-        <p className="a-desc">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat duis aute irure dolor in reprehende.
-        </p>
-        <div className="a-award">
-          <div className="a-award-texts">
-            <h4 className="a-award-title">International Design Awards 2021</h4>
-            <p className="a-award-desc">
-              Nemo enim ipsam voluptatem quia voluptas sit aspernatur autodit
-              and fugit.
-            </p>
-          </div>
-        </div>
-      </div>
     </div>
-  );
-};
+    <div className="right">
+        <div className="wrapper">
+            <h1>About me</h1>
+            <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
+              The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here',
+              making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text,
+              and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years,
+              sometimes by accident, sometimes on purpose (injected humour and the like).</p>
+
+            
+        </div>
+
+    </div>            
+</div>
+)};
 
 
 export default About;
