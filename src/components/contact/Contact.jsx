@@ -27,7 +27,7 @@ const Contact = () => {
   };
 
   return (
-    <div className="c">      
+    <div className="c" id="contact">      
       <div className="c-wrapper">
         <div className="c-left">
           <h1 className="c-title">Contact</h1>
@@ -61,7 +61,9 @@ const Contact = () => {
             {done && "Message sent successfully"}
           </form>
         </div>
+        
       </div>
+      <img src="/assets/clouds.png" alt="" />
     </div>
   );
 };
