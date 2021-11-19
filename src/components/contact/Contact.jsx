@@ -63,7 +63,7 @@ const Contact = () => {
         </div>
         
       </div>
-      <img src="/assets/clouds.png" alt="" />
+      <img className="footer" src="/assets/clouds.png" alt="" />
     </div>
   );
 };
