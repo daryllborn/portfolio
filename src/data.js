@@ -5,26 +5,29 @@ export const featuredPortfolio = [
       img: "/assets/bornshop.png",
       desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       skills: ["React", "Styled components", "Axios", "Stripe", "HTML", "CSS", "JavaScript"],
-      code: "https://github.com/daryllborn?tab=repositories",
-      demo: "https://bornshop.netlify.app/"
+      code: "https://github.com/daryllborn/ecommerce-client",
+      demo: "https://bornshop.netlify.app/",
+      type: "frontend"
     },
     {
       id: 2,
-      title: "Ecommerce frontend",
+      title: "Ecommerce backend",
       img: "/assets/bornshop2.png",
       desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      skills: ["React", "Styled components", "Axios", "Stripe"],
-      code: "https://github.com/daryllborn?tab=repositories",
-      demo: "https://bornshop.netlify.app/"
+      skills: ["NodeJS", "Express", "MongoDB", "JavaScript"],
+      code: "https://github.com/daryllborn/ecommerce-api",
+      demo: "https://bornshop.netlify.app/",
+      type: "backend"
     },
     {
       id: 3,
       title: "Space Invaders",
-      img: "/assets/bornshop.png",
+      img: "/assets/spaceinvaders.png",
       desc: "A simple game made with pure HTML, CSS, JavaScript and some JQuery to practice Object Oriented programming principles and just have some fun!",
       skills: ["HTML", "CSS", "JavaScript", "JQuery"],
       code: "https://github.com/daryllborn/spaceinvaders",
-      demo: "https://spaceinvaders0.netlify.app/"
+      demo: "https://spaceinvaders0.netlify.app/",
+      type: "frontend"
     },
     {
       id: 4,
