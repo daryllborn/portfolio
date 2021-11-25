@@ -72,20 +72,17 @@ export default function Portfolio() {
 
               <ul>
                 Tech used:
-                <li>-------------------------</li>
-                <li>> Node.js</li>
-                <li>> MongoDB</li>
-                <li>> React</li>
-                <li>> Sass</li>
-                <li>> Socket.io</li>
-                <li>> WebRTC</li>
+                                
+                {item.skills.map((skill) => (
+                  <li> > {skill}</li>
+                ))} 
               </ul>
             </div>
             <div className="links">
               <div className="github">
                 <GitHubIcon />
                 <a
-                  href="https://github.com/daryllborn?tab=repositories"
+                  href={item.code}
                   target="_blank"
                   rel="noopener noreferrer"
                 >code
@@ -94,7 +91,7 @@ export default function Portfolio() {
               <div className="demo">
                 <PreviewIcon />
                 <a
-                  href="https://github.com/daryllborn?tab=repositories"
+                  href={item.demo}
                   target="_blank"
                   rel="noopener noreferrer"
                 >demo
