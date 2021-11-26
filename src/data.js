@@ -31,12 +31,12 @@ export const featuredPortfolio = [
     },
     {
       id: 4,
-      title: "Ecommerce frontend",
-      img: "/assets/bornshop.png",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      skills: ["React", "Styled components", "Axios", "Stripe"],
-      code: "https://github.com/daryllborn?tab=repositories",
-      demo: "https://bornshop.netlify.app/"
+      title: "Social media frontend",
+      img: "/assets/socialclient.png",
+      desc: "A social media frontend to practice Material UI in React",
+      skills: ["React", "Material UI"],
+      code: "https://github.com/daryllborn/social-client",
+      demo: "https://social-client.netlify.app/"
     },
     {
       id: 5,

@@ -64,15 +64,10 @@ export default function Portfolio() {
             <h3>{item.title}</h3>
             <div className="infoContainer">
               <div className="info">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                {item.desc}
               </div>
-
               <ul>
-                Tech used:
-                                
+                Tech used:                                
                 {item.skills.map((skill) => (
                   <li> > {skill}</li>
                 ))} 
