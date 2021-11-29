@@ -40,8 +40,8 @@ export const featuredPortfolio = [
     },
     {
       id: 5,
-      title: "Ecommerce frontend",
-      img: "/assets/bornshop.png",
+      title: "Project name",
+      img: "/assets/coming-soon.jpg",
       desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       skills: ["React", "Styled components", "Axios", "Stripe"],
       code: "https://github.com/daryllborn?tab=repositories",
@@ -49,8 +49,8 @@ export const featuredPortfolio = [
     },
     {
       id: 6,
-      title: "Ecommerce frontend",
-      img: "/assets/bornshop.png",
+      title: "Project name",
+      img: "/assets/coming-soon.jpg",
       desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       skills: ["React", "Styled components", "Axios", "Stripe"],
       code: "https://github.com/daryllborn?tab=repositories",
@@ -71,7 +71,7 @@ export const featuredPortfolio = [
     {
       id: 2,
       title: "Ecommerce frontend",
-      img: "/assets/bornshop.png",
+      img: "/assets/coming-soon.jpg",
       desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       skills: ["React", "Styled components", "Axios", "Stripe"],
       code: "https://github.com/daryllborn?tab=repositories",
@@ -80,7 +80,7 @@ export const featuredPortfolio = [
     {
       id: 3,
       title: "Ecommerce frontend",
-      img: "/assets/bornshop.png",
+      img: "/assets/coming-soon.jpg",
       desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       skills: ["React", "Styled components", "Axios", "Stripe"],
       code: "https://github.com/daryllborn?tab=repositories",
@@ -89,7 +89,7 @@ export const featuredPortfolio = [
     {
       id: 4,
       title: "Ecommerce frontend",
-      img: "/assets/bornshop.png",
+      img: "/assets/coming-soon.jpg",
       desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       skills: ["React", "Styled components", "Axios", "Stripe"],
       code: "https://github.com/daryllborn?tab=repositories",
