@@ -11,7 +11,7 @@ export default function Intro() {
             textRef.current, {
                 showCursor: true,
                 backDelay: 1500,
-                strings: ["Frontend", "Backend", "Full Stack"],
+                strings: ["Frontend", "Backend", "Full Stack", "JavaScript", "Python", "React", "Node", "WebRTC"],
             }    
         );
     },[]);
@@ -21,7 +21,7 @@ export default function Intro() {
         <div className="intro" id="intro">
             <div className="left">
                 <div className="imgContainer">
-                    <img src="assets/mern_appstudio.png" alt="" />
+                    <img src="assets/coder.gif" alt="" />
                 </div>
             </div>
             <div className="right">

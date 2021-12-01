@@ -22,11 +22,11 @@ export const featuredPortfolio = [
     {
       id: 3,
       title: "Ecommerce Backend",
-      img: "/assets/bornshop.png",
+      img: "/assets/restapi.png",
       desc: "The API of my full stack ecommerce project. Built with the MVC pattern in mind. Endpoint routes are created on express and the MongoDB database is queried using Mongoose",
       skills: ["Nodejs", "Express", "MongoDB", "Mongoose"],
       code: "https://github.com/daryllborn/ecommerce-api",
-      demo: "https://bornshop.netlify.app/",
+      demo: "https://bornshop.netlify.app",
       type: "backend"
     },
     {
@@ -36,7 +36,7 @@ export const featuredPortfolio = [
     desc: "The portfolio website you are looking at right now was made with React and Sass",
     skills: ["React", "Sass", "HTML", "CSS", "JavaScript"],
     code: "https://github.com/daryllborn/portfolio",
-    demo: "https://daryllborn.com"
+    demo: "https://daryllborn.com#portfolio"
   },        
   ];
   
@@ -45,19 +45,20 @@ export const featuredPortfolio = [
       id: 1,
       title: "Ecommerce frontend",
       img: "/assets/bornshop.png",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      skills: ["React", "Styled components", "Axios", "Stripe"],
-      code: "https://github.com/daryllborn?tab=repositories",
-      demo: "https://bornshop.netlify.app/"
+      desc: "The frontend part of my full stack ecommerce project. Made with React and styled components. I am using Redux toolkit for site wide state management and Axios to make API calls to the backend. You are able to filter products and order them with stripe payment processing ",
+      skills: ["React", "Styled components", "Axios", "Stripe", "HTML", "CSS", "JavaScript"],
+      code: "https://github.com/daryllborn/ecommerce-client",
+      demo: "https://bornshop.netlify.app/",
+      type: "frontend"
     },
     {
       id: 2,
-      title: "Ecommerce frontend",
-      img: "/assets/coming-soon.jpg",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      skills: ["React", "Styled components", "Axios", "Stripe"],
-      code: "https://github.com/daryllborn?tab=repositories",
-      demo: "https://bornshop.netlify.app/"
+      title: "Portfolio website",
+      img: "/assets/portfolio.png",
+      desc: "The portfolio website you are looking at right now was made with React and Sass",
+      skills: ["React", "Sass", "HTML", "CSS", "JavaScript"],
+      code: "https://github.com/daryllborn/portfolio",
+      demo: "https://daryllborn.com#portfolio"
     },
     {
       id: 3,
@@ -71,49 +72,51 @@ export const featuredPortfolio = [
     },
     {
       id: 4,
-      title: "Ecommerce frontend",
-      img: "/assets/coming-soon.jpg",
+      title: "Social media interface",
+      img: "/assets/socialclient.png",
       desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      skills: ["React", "Styled components", "Axios", "Stripe"],
+      skills: ["HTML", "CSS", "JavaScript", "Nodejs", "React", "MongoDB", "Express", "Nextjs"],
       code: "https://github.com/daryllborn?tab=repositories",
-      demo: "https://bornshop.netlify.app/"
+      demo: "https://social-client.netlify.app"
     },
   ];
   
   export const backEndPortfolio = [
     {
       id: 1,
-      title: "Ecommerce frontend",
-      img: "/assets/bornshop.png",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      skills: ["React", "Styled components", "Axios", "Stripe"],
-      code: "https://github.com/daryllborn?tab=repositories",
-      demo: "https://bornshop.netlify.app/"
+      title: "Ecommerce Backend",
+      img: "/assets/restapi.png",
+      desc: "The API of my full stack ecommerce project. Built with the MVC pattern in mind. Endpoint routes are created on express and the MongoDB database is queried using Mongoose",
+      skills: ["Nodejs", "Express", "MongoDB", "Mongoose"],
+      code: "https://github.com/daryllborn/ecommerce-api",
+      demo: "https://bornshop.netlify.app",
+      type: "backend"
     },
     {
       id: 2,
-      title: "Ecommerce frontend",
-      img: "/assets/bornshop.png",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      skills: ["React", "Styled components", "Axios", "Stripe"],
-      code: "https://github.com/daryllborn?tab=repositories",
-      demo: "https://bornshop.netlify.app/"
+      title: "VideoChat WebRTC",
+      img: "/assets/webrtc-process.png",
+      desc: "With the rise of working from home real time communication becomes ever more important. This simple videochat application makes use of WebRTC. You can make videocalls and chat in real time on a peer to peer connection",
+      skills: ["NodeJS", "Express", "Socket.IO", "WebRTC", "HTML", "CSS", "JavaScript",],
+      code: "https://github.com/daryllborn/videochat",
+      demo: "https://bornrtc.netlify.app/",
+      type: "backend"
     },
     {
       id: 3,
-      title: "Ecommerce frontend",
+      title: "Project name",
       img: "/assets/coming-soon.jpg",
       desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      skills: ["React", "Styled components", "Axios", "Stripe"],
+      skills: ["HTML", "CSS", "JavaScript", "Nodejs", "React", "MongoDB", "Express", "Nextjs"],
       code: "https://github.com/daryllborn?tab=repositories",
       demo: "https://bornshop.netlify.app/"
     },
     {
       id: 4,
-      title: "Ecommerce frontend",
+      title: "Project name",
       img: "/assets/coming-soon.jpg",
       desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      skills: ["React", "Styled components", "Axios", "Stripe"],
+      skills: ["HTML", "CSS", "JavaScript", "Nodejs", "React", "MongoDB", "Express", "Nextjs"],
       code: "https://github.com/daryllborn?tab=repositories",
       demo: "https://bornshop.netlify.app/"
     },

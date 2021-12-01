@@ -1,8 +1,7 @@
 @import "../../global.scss";
 
-
 .intro{
-    background-color: rgb(253, 253, 253);
+    background-color: white;
     display: flex;
 
     @include mobile{
@@ -67,26 +66,28 @@
             h1{
                 font-size: 100px;
                 margin: 10px 0;
-                color: darkorange;
+                color: $mainColor;
                 @include mobile{
                     font-size: 50px;
                   }
             }
             h2{
                 font-size: 50px;
+                color: $mainColor;
                 @include mobile{
                     font-size: 30px;
                   }
             }
             h3{            
                 font-size: 60px;
+                color: $mainColor;
                 @include mobile{
                     font-size: 30px;
                   }
 
                 span{
                     font-size:inherit;
-                    color: green;
+                    color: skyblue;
                 }
                 
                 .ityped-cursor{
