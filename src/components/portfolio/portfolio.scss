@@ -10,8 +10,8 @@
   h1 {
     font-size: 50px;
 
-    @include mobile{
-      font-size: 30px;   
+    @include mobile {
+      font-size: 30px;
     }
   }
   ul {
@@ -20,7 +20,7 @@
     list-style: none;
     display: flex;
 
-    @include mobile{
+    @include mobile {
       margin: 10px 0;
       flex-wrap: wrap;
       justify-content: center;
@@ -41,10 +41,9 @@
     left: 0;
     right: 0;
 
-    @include mobile{
+    @include mobile {
       width: 100%;
     }
-
 
     .item {
       background-color: white;
@@ -61,11 +60,10 @@
       position: relative;
       overflow: hidden;
 
-      @include mobile{
+      @include mobile {
         width: 130px;
         height: 100px;
       }
-
 
       h3 {
         margin-top: 20px;
@@ -77,62 +75,68 @@
       img {
         width: 100%;
         height: 100%;
-        object-fit: cover;
+        object-fit: contain;
         z-index: 1;
-        
       }
 
       .infoContainer {
         display: flex;
         position: absolute;
-        justify-content:center;
-        
-
+        justify-content: center;
 
         .info {
-            margin-top: 50px;
-            margin-left: 20px;
-            //padding: 10px;
-
-            flex: 2;
-            //border: 1px solid lightgrey;
+          margin-top: 50px;
+          margin-left: 20px;
+          flex: 2;
+          @include mobile {
+            visibility: hidden;
           }
-    
+        }
+
         ul {
-            margin-top: 50px;
-            flex-direction: column;
-            flex: 1;
-            border: 1px solid lightgrey;
+          margin-top: 50px;
+          flex-direction: column;
+          flex: 1;
+          @include mobile {
+            visibility: hidden;
+          }
         }
       }
 
-      .links{
-          display:flex;
-          flex-direction: column;
-          align-items: center;
-          position: absolute;
-          //justify-content: flex-end;
-          bottom:20px;
-          //border: 1px solid lightgrey;
-          .github {
-            flex:1;
-            a{
-              color: white;
-              //border: 1px solid lightgrey;
-          }
-          }
+      .links {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        position: absolute;        
+        bottom: 20px;
 
-          .demo {
-            flex:1;
-            a{
-              color: white;
-              //border: 1px solid lightgrey;
+        .github {          
+          .button {
+            color: white;
+            margin: 10px;
+            border-radius: 2px;
+            box-shadow: 0 1px 4px rgba(0, 0, 0, 0.6);
+            visibility: hidden;
           }
-          }
+        }
 
+        .demo {          
+          .button {
+            text-align:center;
+            color: white;
+            background-color: crimson;
+            margin: 10px;
+            border-radius: 2px;
+            box-shadow: 0 1px 4px rgba(0, 0, 0, 0.6);
+            visibility: hidden;
+            @include mobile {
+              width: 5px;
+              font-size: 5px;
+
+            }
+          }
+        }
       }
-
-
 
       &:hover {
         background-color: $mainColor;
@@ -140,6 +144,20 @@
           opacity: 0.1;
           z-index: 0;
         }
+        ul {
+          border: 1px solid lightgrey;
+        }
+        .demo {
+          .button {
+            visibility: visible;
+          }
+        }
+        .github {
+          .button {
+            visibility: visible;
+          }
+        }
+
       }
     }
   }

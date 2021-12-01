@@ -2,7 +2,7 @@ export const featuredPortfolio = [
     {
       id: 1,
       title: "Ecommerce frontend",
-      img: "/assets/bornshop.png",
+      img: "/assets/bornshop2.png",
       desc: "The frontend part of my full stack ecommerce project. Made with React and styled components. I am using Redux toolkit for site wide state management and Axios to make API calls to the backend. You are able to filter products and order them with stripe payment processing ",
       skills: ["React", "Styled components", "Axios", "Stripe", "HTML", "CSS", "JavaScript"],
       code: "https://github.com/daryllborn/ecommerce-client",
@@ -22,7 +22,7 @@ export const featuredPortfolio = [
     {
       id: 3,
       title: "Ecommerce Backend",
-      img: "/assets/bornshop2.png",
+      img: "/assets/bornshop.png",
       desc: "The API of my full stack ecommerce project. Built with the MVC pattern in mind. Endpoint routes are created on express and the MongoDB database is queried using Mongoose",
       skills: ["Nodejs", "Express", "MongoDB", "Mongoose"],
       code: "https://github.com/daryllborn/ecommerce-api",
@@ -32,11 +32,11 @@ export const featuredPortfolio = [
     {
     id: 4,
     title: "Portfolio website",
-    img: "/assets/coming-soon.jpg",
+    img: "/assets/portfolio.png",
     desc: "The portfolio website you are looking at right now was made with React and Sass",
     skills: ["React", "Sass", "HTML", "CSS", "JavaScript"],
     code: "https://github.com/daryllborn/portfolio",
-    demo: "https://bornshop.netlify.app/"
+    demo: "https://daryllborn.com"
   },        
   ];
   

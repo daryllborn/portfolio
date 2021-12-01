@@ -74,23 +74,11 @@ export default function Portfolio() {
               </ul>
             </div>
             <div className="links">
-              <div className="github">
-                <GitHubIcon />
-                <a
-                  href={item.code}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >code
-                </a>
+              <div className="github">                
+                <button className="button" onClick={()=> window.open(item.code, "_blank")}><GitHubIcon />Code</button>        
               </div>
               <div className="demo">
-                <PreviewIcon />
-                <a
-                  href={item.demo}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >demo
-                </a>
+                <button className="button" onClick={()=> window.open(item.demo, "_blank")}><PreviewIcon />Demo</button>       
               </div>
             </div>
           </div>
