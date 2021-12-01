@@ -42,7 +42,7 @@ const Contact = () => {
             </div>
             <div className="c-info-item">
               <img className="c-icon" src="/assets/address.png" alt="" />
-              Aphrodite 7, 3225TA, Hellevoetsluis
+              Hellevoetsluis
             </div>
           </div>
         </div>
