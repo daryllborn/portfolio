@@ -1,6 +1,7 @@
 .c {
   height: 100vh;
   position: relative;
+  background-color: white;
 }
 
 .c-bg {

@@ -11,7 +11,7 @@ export default function Intro() {
             textRef.current, {
                 showCursor: true,
                 backDelay: 1500,
-                strings: ["Frontend", "Backend", "Full Stack", "JavaScript", "Python", "React", "Node", "WebRTC"],
+                strings: ["Frontend", "Backend", "Full Stack", "JavaScript", "Python", "React", "Node.js", "WebRTC"],
             }    
         );
     },[]);

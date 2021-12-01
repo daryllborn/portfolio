@@ -9,7 +9,7 @@
 
   h1 {
     font-size: 50px;
-
+    color: $mainColor;
     @include mobile {
       font-size: 30px;
     }
@@ -46,11 +46,11 @@
     }
 
     .item {
+      box-shadow: 0 1px 4px rgba(0, 0, 0, 0.6);
       background-color: white;
       width: 600px;
       height: 300px;
-      border-radius: 20px;
-      border: 1px solid lightgrey;
+      border-radius: 20px;      
       margin: 10px 20px;
       display: flex;
       justify-content: space-evenly;
