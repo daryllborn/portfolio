@@ -35,7 +35,7 @@ const About = () => {
           </p>
         </div>
       </div>
-      <div className="right">
+      <div className="right" id="about-right">
         <div className="imgContainer">
           <img src="assets/coder2.gif" alt="" />
         </div>

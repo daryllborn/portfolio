@@ -133,9 +133,8 @@ button {
   button {
     margin-top: 10px;
   }
-
-  .c-middle {
-    display: none;
+  .c-left {
+    display: none;    
   }
   
   .c-right {
