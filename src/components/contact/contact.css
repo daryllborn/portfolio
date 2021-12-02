@@ -17,19 +17,22 @@
 }
 
 .c-left {
-  flex: 0.5;
-}
-
-.c-middle {
+  margin-left: 250px;
   flex: 1;
 }
 
+.c-middle {
+  flex: 1;  
+}
+
 .c-right {
+  margin-right: 150px;
   flex: 1;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  float: left;
 }
 
 .c-title {
@@ -67,18 +70,22 @@ form {
 input {
   width: 50%;
   height: 50px;
-  border: none;
-  border-bottom: 1px solid black;
+  border-radius: 5px;  
   margin: 10px 0px;
   font-size: 14px;
   padding-left: 10px;
+  border: 1px solid lightgray;
+ 
 }
 
 textarea {
-  width: 100%;
+  width: 70%;
   margin: 10px 0px;
   font-size: 14px;
-  padding-left: 10px;
+  padding-left: 10px;  
+  border-radius: 5px;
+  border: 1px solid lightgray;
+  
 }
 
 button {
@@ -87,7 +94,8 @@ button {
   background-color: #59b256;
   color: white;
   font-weight: 500;
-  cursor: pointer;
+  cursor: pointer;  
+  border-radius: 5px;  
 }
 
 @media screen and (max-width: 680px) {
@@ -131,7 +139,7 @@ button {
   }
   
   .c-right {
-    //display: none;
+    display: none;
   }
 
   .footer{

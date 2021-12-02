@@ -29,7 +29,7 @@ export default function Intro() {
                     <h2>Hello World, I'm</h2>
                     <h1>Daryll Born</h1>
                     <h3><span ref={textRef} ></span>Developer</h3>
-                    
+                    <button className="button" onClick={()=> window.open("#portfolio", "_self")}>Portfolio</button> 
                 </div>
                 <a href="#portfolio">
                     <img src="assets/down.png" alt="" /> 

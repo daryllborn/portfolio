@@ -33,7 +33,7 @@ export const featuredPortfolio = [
     id: 4,
     title: "Portfolio website",
     img: "/assets/portfolio.png",
-    desc: "The portfolio website you are looking at right now was made with React and Sass",
+    desc: "The portfolio website you are looking at right now was made with React and Sass. Here you can find some of the projects I built. You can view the code of my projects on Github and view a live demo by clicking on one of the buttons below",
     skills: ["React", "Sass", "HTML", "CSS", "JavaScript"],
     code: "https://github.com/daryllborn/portfolio",
     demo: "https://daryllborn.com#portfolio"
@@ -55,7 +55,7 @@ export const featuredPortfolio = [
       id: 2,
       title: "Portfolio website",
       img: "/assets/portfolio.png",
-      desc: "The portfolio website you are looking at right now was made with React and Sass",
+      desc: "The portfolio website you are looking at right now was made with React and Sass. Here you can find some of the projects I built. You can view the code of my projects on Github and view a live demo by clicking on one of the buttons below",
       skills: ["React", "Sass", "HTML", "CSS", "JavaScript"],
       code: "https://github.com/daryllborn/portfolio",
       demo: "https://daryllborn.com#portfolio"

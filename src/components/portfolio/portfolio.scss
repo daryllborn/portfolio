@@ -59,6 +59,12 @@
       cursor: pointer;
       position: relative;
       overflow: hidden;
+      transition: all 0.5s ease-in-out;
+
+      &:hover {
+        //border: 1px solid lightgray;
+        transform: scale(1.05);
+      }
 
       @include mobile {
         width: 130px;

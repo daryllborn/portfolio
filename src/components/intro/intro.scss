@@ -94,6 +94,7 @@
                     animation: blink 1s infinite;
                 }
 
+
                 @keyframes blink{
                     50%{
                         opacity:1;
@@ -102,6 +103,15 @@
                         opacity:0;
                     }
                 }
+            }
+        }
+
+        .button{            
+            margin-top: 20px;
+            width: 120px;
+            font-size: 20px;
+            &:hover {
+                box-shadow: 0 1px 4px rgba(0, 0, 0, 0.6);
             }
         }
 
