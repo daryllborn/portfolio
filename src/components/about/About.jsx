@@ -13,7 +13,7 @@ const About = () => {
           <br />
           <p className="paragraph">
             After completing my Bachelor of Business Administration, I held
-            various positions at ICT companies ranging from corporate to start-up. 
+            various positions at ICT companies ranging from corporate to start-up in size. 
             With the focus of my positions increasingly shifting to the technical domain.
             Thanks to my broad experience, I have acquired good communication skills and developed
             a strong technical understanding.
@@ -27,7 +27,7 @@ const About = () => {
           </p>
           <br />
           <p className="paragraph">
-            In my spare time I like to play chess, trade crypto or forex and
+            In my spare time I like to play chess, trade forex and
             take care of my twin boys with my lovely wife.
 
             <br />
@@ -37,7 +37,7 @@ const About = () => {
       </div>
       <div className="right" id="about-right">
         <div className="imgContainer">
-          <img src="assets/coder2.gif" alt="" />
+          <img src="assets/coder.gif" alt="" />
         </div>
       </div>
     </div>
