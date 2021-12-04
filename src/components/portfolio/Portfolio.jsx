@@ -80,7 +80,7 @@ export default function Portfolio() {
                        
               </div>
               <div className="demo">
-                <Button variant="contained" className="button-demo" onClick={()=> window.open(item.code, "_blank")}><PreviewIcon/>Live</Button>      
+                <Button variant="contained" className="button-demo" onClick={()=> window.open(item.demo, "_blank")}><PreviewIcon/>Live</Button>      
               </div>
             </div>
           </div>
