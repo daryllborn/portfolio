@@ -30,7 +30,7 @@
 
   .container {
     width: 70%;
-    display: flex;    
+    display: flex;
     //align-items: center;
     justify-content: center;
     flex-wrap: wrap;
@@ -43,7 +43,8 @@
     right: 0;
 
     @include mobile {
-      width: 100%;
+      width: 90%;
+      top: 100px;
     }
 
     .item {
@@ -51,7 +52,7 @@
       background-color: white;
       width: 600px;
       height: 300px;
-      border-radius: 20px;      
+      border-radius: 20px;
       margin: 10px 20px;
       display: flex;
       justify-content: space-evenly;
@@ -68,8 +69,8 @@
       }
 
       @include mobile {
-        width: 130px;
-        height: 100px;
+        //width: 130px;
+        height: 150px;
       }
 
       h3 {
@@ -87,13 +88,14 @@
       }
 
       .infoContainer {
+        margin: 20px;
         display: flex;
         position: absolute;
         justify-content: center;
 
         .info {
           margin-top: 50px;
-          margin-left: 20px;
+          //margin-left: 20px;
           flex: 2;
           @include mobile {
             visibility: hidden;
@@ -114,32 +116,30 @@
         display: flex;
         flex-direction: row;
         align-items: center;
-        position: absolute;        
+        position: absolute;
         bottom: 20px;
 
-        .github {          
-          .button {
+        .github {
+          .button-github {
             color: white;
-            margin: 10px;
-            border-radius: 2px;
-            box-shadow: 0 1px 4px rgba(0, 0, 0, 0.6);
+            margin: 5px;
             visibility: hidden;
+            @include mobile {
+              width: 30px;
+              height: 30px;
+            }
           }
         }
 
-        .demo {          
-          .button {
-            text-align:center;
+        .demo {
+          .button-demo {
             color: white;
-            background-color: crimson;
-            margin: 10px;
-            border-radius: 2px;
-            box-shadow: 0 1px 4px rgba(0, 0, 0, 0.6);
+            margin: 5px;
+            background-color: #59b256;
             visibility: hidden;
             @include mobile {
-              width: 5px;
-              font-size: 5px;
-
+              width: 30px;
+              height: 30px;
             }
           }
         }
@@ -155,16 +155,15 @@
           border: 1px solid lightgrey;
         }
         .demo {
-          .button {
+          .button-demo {
             visibility: visible;
           }
         }
         .github {
-          .button {
+          .button-github {
             visibility: visible;
           }
         }
-
       }
     }
   }

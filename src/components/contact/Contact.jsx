@@ -1,6 +1,11 @@
 import "./contact.css";
 import { useRef, useState } from "react";
 import emailjs from "emailjs-com";
+import PhoneIcon from '@mui/icons-material/Phone';
+import EmailIcon from '@mui/icons-material/Email';
+import LocationOnIcon from '@mui/icons-material/LocationOn';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import GitHubIcon from '@mui/icons-material/GitHub';
 
 const Contact = () => {
   const formRef = useRef();
@@ -33,16 +38,24 @@ const Contact = () => {
           <h1 className="c-title">Contact</h1>
           <div className="c-info">
             <div className="c-info-item">
-              <img src="/assets/phone.png" alt="" className="c-icon" />
-              <h4>+31651724674 </h4>
+              <PhoneIcon fontSize="large" />
+              <span>: +31651724674 </span>
             </div>
             <div className="c-info-item">
-              <img className="c-icon" src="/assets/email.png" alt="" />
-              <h4>born.dd@gmail.com</h4>
+              <EmailIcon fontSize="large" />
+              <span>: Born.dd@gmail.com</span>
             </div>
             <div className="c-info-item">
-              <img className="c-icon" src="/assets/address.png" alt="" />
-              <h4>Hellevoetsluis</h4>
+              <LocationOnIcon fontSize="large" />
+              <span>: Hellevoetsluis, Netherlands</span>
+            </div>
+            <div className="c-info-item">
+              <LinkedInIcon fontSize="large" />
+              <span>: <a href="https://www.linkedin.com/in/daryll-born/" target="_blank">Linkedin</a></span>
+            </div>
+            <div className="c-info-item">
+              <GitHubIcon fontSize="large" />
+              <span>: <a href="https://github.com/daryllborn" target="_blank">Github</a></span>
             </div>
           </div>
         </div>

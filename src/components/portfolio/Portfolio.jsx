@@ -8,6 +8,7 @@ import {
 } from "../../data";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import PreviewIcon from "@mui/icons-material/Preview";
+import Button from '@mui/material/Button';
 
 export default function Portfolio() {
   const [selected, setSelected] = useState("featured");
@@ -74,11 +75,12 @@ export default function Portfolio() {
               </ul>
             </div>
             <div className="links">
-              <div className="github">                
-                <button className="button" onClick={()=> window.open(item.code, "_blank")}><GitHubIcon />Code</button>        
+              <div className="github">
+              <Button variant="contained" className="button-github" onClick={()=> window.open(item.code, "_blank")}><GitHubIcon/>Code</Button>         
+                       
               </div>
               <div className="demo">
-                <button className="button" onClick={()=> window.open(item.demo, "_blank")}><PreviewIcon />Demo</button>       
+                <Button variant="contained" className="button-demo" onClick={()=> window.open(item.code, "_blank")}><PreviewIcon/>Live</Button>      
               </div>
             </div>
           </div>

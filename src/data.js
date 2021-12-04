@@ -13,10 +13,10 @@ export const featuredPortfolio = [
       id: 2,
       title: "VideoChat WebRTC",
       img: "/assets/webrtc-process.png",
-      desc: "With the rise of working from home real time communication becomes ever more important. This simple videochat application makes use of WebRTC. You can make videocalls and chat in real time on a peer to peer connection",
+      desc: "With the rise of working from home real time communication technology becomes more important than ever. This simple videochat application makes use of WebRTC. It allows audio and video communication to work inside web pages by enabling direct peer-to-peer communication.",
       skills: ["NodeJS", "Express", "Socket.IO", "WebRTC", "HTML", "CSS", "JavaScript",],
       code: "https://github.com/daryllborn/videochat",
-      demo: "https://bornrtc.netlify.app/",
+      demo: "https://bornrtc.herokuapp.com/",
       type: "backend"
     },
     {
@@ -96,10 +96,10 @@ export const featuredPortfolio = [
       id: 2,
       title: "VideoChat WebRTC",
       img: "/assets/webrtc-process.png",
-      desc: "With the rise of working from home real time communication becomes ever more important. This simple videochat application makes use of WebRTC. You can make videocalls and chat in real time on a peer to peer connection",
+      desc: "With the rise of working from home real time communication technology becomes more important than ever. This simple videochat application makes use of WebRTC. It allows audio and video communication to work inside web pages by enabling direct peer-to-peer communication",
       skills: ["NodeJS", "Express", "Socket.IO", "WebRTC", "HTML", "CSS", "JavaScript",],
       code: "https://github.com/daryllborn/videochat",
-      demo: "https://bornrtc.netlify.app/",
+      demo: "https://bornrtc.herokuapp.com/",
       type: "backend"
     },
     {
