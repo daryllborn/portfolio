@@ -43,7 +43,7 @@ const Contact = () => {
             </div>
             <div className="c-info-item">
               <EmailIcon fontSize="large" />
-              <span>: Born.dd@gmail.com</span>
+              <span>: Born.dd@gmail.com</span>              
             </div>
             <div className="c-info-item">
               <LocationOnIcon fontSize="large" />
@@ -51,11 +51,11 @@ const Contact = () => {
             </div>
             <div className="c-info-item">
               <LinkedInIcon fontSize="large" />
-              <span>: <a href="https://www.linkedin.com/in/daryll-born/" target="_blank">Linkedin</a></span>
+              <span>: <a href="https://www.linkedin.com/in/daryll-born/" target="_blank" rel="noreferrer">Linkedin</a></span>
             </div>
             <div className="c-info-item">
               <GitHubIcon fontSize="large" />
-              <span>: <a href="https://github.com/daryllborn" target="_blank">Github</a></span>
+              <span>: <a href="https://github.com/daryllborn" target="_blank" rel="noreferrer">Github</a></span>
             </div>
           </div>
         </div>
