@@ -124,10 +124,6 @@
             color: white;
             margin: 5px;
             visibility: hidden;
-            @include mobile {
-              width: 30px;
-              height: 30px;
-            }
           }
         }
 
@@ -137,10 +133,6 @@
             margin: 5px;
             background-color: #59b256;
             visibility: hidden;
-            @include mobile {
-              width: 30px;
-              height: 30px;
-            }
           }
         }
       }
